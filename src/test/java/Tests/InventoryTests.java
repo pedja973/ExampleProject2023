@@ -57,7 +57,6 @@ public class InventoryTests  extends BaseTest{
     @Test
     public void twitter() {
         inventoryPage.clickTwitterButton();
-        //naredna četiri reda sam pronašao na internetu i samo ga kopirao, da kada se otvori novi tab da se pređe na njega
         String oldTab =driver.getWindowHandle();
         ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
         newTab.remove(oldTab);
