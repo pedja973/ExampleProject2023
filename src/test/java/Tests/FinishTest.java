@@ -15,7 +15,7 @@ public class FinishTest extends BaseTest {
     Overview overview=new Overview(driver);
 
 
-    //Zadatak 2. Testing of successful purchase
+    //Testing of successful purchase
 
     @Test
     public void successfulBuy() {

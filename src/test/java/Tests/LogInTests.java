@@ -19,7 +19,7 @@ public class LogInTests extends BaseTest{
         driver.get("https://saucedemo.com");
     }
 
-    // Zadatak 1. LogIn function test
+    // LogIn function test
 
     @Test
     public void testLogInWithValidUserNamePassword() {

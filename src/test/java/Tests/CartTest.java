@@ -27,7 +27,7 @@ public class CartTest extends BaseTest {
     public void removeBackpackFromCart() {
         cart.removeBackPack();
 
-        //ovde šta god da sam probao, a probao sam svašta, findElement daje grešku
+        //does not work
 
         Assert.assertFalse(driver.findElement(cart.sauceLabsBackpack).isDisplayed());
 

@@ -28,7 +28,7 @@ public class InventoryTests  extends BaseTest{
 
     }
 
-    //zadatak 4. add items to cart test
+    //Add items to cart test
 
     @Test
     public void addBackpacktoCart() {
@@ -52,7 +52,7 @@ public class InventoryTests  extends BaseTest{
 
     }
 
-    //Zadatak 3. Testing Twitter, Facebook and LinkedIn links
+    //Testing Twitter, Facebook and LinkedIn links
 
     @Test
     public void twitter() {
@@ -88,9 +88,7 @@ public class InventoryTests  extends BaseTest{
             System.out.println("The click on the LinkedIn button was successful and opened the correct link.");
         } else {
             System.out.println("The click on the LinkedIn button did not open the correct link.");
-
         }
-        // ovde je link davao svaki put drugu adresu pa sam morao upotrebiti contains da bi radilo
-        // poslednji put kad sam probao davao je normalan link ali moze i ovako
+
         }
 }
